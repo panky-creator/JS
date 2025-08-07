@@ -22,10 +22,13 @@ console.log(str1 == str2); // true, because values are equal
 console.log(str1 === str2); // false, because types are different
 console.log(str1 != str2); // false, because values are equal
 console.log(str1 !== str2); // true, because types are different
+
+
 // Logical Operators Example
 let x = 5;
 let y = 10; 
 console.log(x < y && x > 0); // true, both conditions are true
+console.log(x < y || x > 0); // true, at least one condition is true
 
 
 
